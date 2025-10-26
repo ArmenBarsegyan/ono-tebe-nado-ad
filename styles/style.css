@@ -86,7 +86,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 78px;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .cover__description-text {
@@ -219,7 +219,7 @@ body {
 .about__text {
     font-size: 20px;
     width: 700px;
-    margin-left: 40px;
+    margin-left: 0px;
     margin-top: -5px;
 }
 
@@ -230,7 +230,8 @@ body {
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 50px 50px 90px;
+    padding: 30px 50px 90px;
+    margin-top: -30px;
 }
 
 .footer__menu-list {
