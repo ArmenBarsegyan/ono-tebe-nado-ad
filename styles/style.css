@@ -62,6 +62,7 @@ body {
     font-size: 100px;
     font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 30px;
 }
 
 .aligned-text {
@@ -105,7 +106,7 @@ body {
 }
 
 .lots {
-    padding: 50px 50px 180px;
+    padding: 180px 50px 180px;
 }
 
 .lots__heading {
@@ -188,8 +189,8 @@ body {
     grid-template-columns: 430px 1fr;
     gap: 25px;
     padding: 0 50px 180px;
-    margin-top: -50px;
-    margin-left: -30px;
+    margin-top: 40px;
+    margin-left: -40px;
 }
 
 .about__logo {
@@ -215,6 +216,7 @@ body {
 
 .about__text {
     font-size: 20px;
+    width: 700px;
 }
 
 .about__text p:first-child {
