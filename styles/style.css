@@ -43,12 +43,15 @@ body {
     position: relative;
     background: url('../images/cover.jpg') center/cover no-repeat;
     padding: 165px 50px 50px;
+    width: 1100px;
+    height: 757px;
+     margin: 0 auto;
 }
 
 .overlay {
     position: absolute;
     inset: 0;
-    background: black;
+    background: rgba(0, 0, 0, 0.6);
     z-index: 1;
 }
 
@@ -80,7 +83,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 78px;
-    margin-top: 135px;
+    margin-top: 50px;
 }
 
 .cover__description-text {
@@ -88,6 +91,7 @@ body {
     font-size: 22px;
     word-spacing: 18px;
     text-transform: uppercase;
+
 }
 
 .bet-button {
@@ -101,7 +105,7 @@ body {
 }
 
 .lots {
-    padding: 180px 50px;
+    padding: 50px 50px 180px;
 }
 
 .lots__heading {
@@ -184,6 +188,8 @@ body {
     grid-template-columns: 430px 1fr;
     gap: 25px;
     padding: 0 50px 180px;
+    margin-top: -50px;
+    margin-left: -30px;
 }
 
 .about__logo {
@@ -218,7 +224,7 @@ body {
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 180px 50px 90px;
+    padding: 30px 50px 90px;
 }
 
 .footer__menu-list {
